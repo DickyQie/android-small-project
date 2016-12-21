@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <CheckBox
+        android:id="@+id/item_home_chekbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:button="@drawable/check_box_bg"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:minHeight="38dp"
+        android:minWidth="32dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/item_home_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/g1" />
+
+        <TextView
+            android:id="@+id/item_home_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:lines="2"
+            android:text="组织工作"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/siez_dime1" />
+    </LinearLayout>
+</RelativeLayout>
