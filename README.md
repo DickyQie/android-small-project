@@ -207,5 +207,4 @@ public class HomeFragment extends Fragment implements  View.OnClickListener {
         notifyData();
     }
 }</code></pre> 
-<span id="OSC_h3_1"></span>
-<h3><span style="color:#B22222"><strong>由于代码太多未完全给出，源码直接下载即可（点击下载）</strong></span></h3> 
+
